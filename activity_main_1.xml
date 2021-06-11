@@ -7,26 +7,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <CheckBox
-        android:id="@+id/chAndroid"
+    <RadioGroup
+        android:id="@+id/rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/rbAndroid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Android"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:textStyle="bold"/>
-    <CheckBox
-        android:id="@+id/chWeb"
+    <RadioButton
+        android:id="@+id/rbWeb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Web"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:textStyle="bold"/>
-    <CheckBox
-        android:id="@+id/chJava"
+    <RadioButton
+        android:id="@+id/rbJava"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Java"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:textStyle="bold"/>
-
+    </RadioGroup>
 </LinearLayout>
